@@ -43,7 +43,7 @@
     --container-width: 1200px;
 }
 
-/* Uitily classes */
+/* Utility classes */
 .text-muted {
     color: var(--color-text-muted);
     font-size: var(--text-sm);
