@@ -233,7 +233,37 @@ header.header {
 
 .testimonial-card {
     flex: 1 1 250px;
+    padding: var(--space-lg);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    background-color: var(--color-bg-muted);
+}
 
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-info span {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+}
+
+.testimonial-author img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-card blockquote {
+    margin-bottom: var(--space-md);
 }
 
 .footer-links {
