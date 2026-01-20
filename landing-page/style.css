@@ -220,7 +220,21 @@ header.header {
 
 .team-card {
     flex: 1 1 250px;
+    padding: var(--space-lg);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    background-color: var(--color-bg-muted);
+    text-align: center;
 }
+
+.team-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0.75rem;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
 
 /* Testimonial Section */
 .testimonial-grid {
